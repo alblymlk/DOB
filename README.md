@@ -1,7 +1,7 @@
 
 # BOYKA
 
-# <p align="center" style="color:#cb3349" >سورس بويكا اول على تلكرام ⌯︙
+# <p align="center" style="color:#cb3349" >سورس دوب لبوتات التليكرام ⌯︙
 
 # <p align="center" style="color:#cb3349" > شروحات عن السورس ادخل الى قناة السورس
 
