@@ -1052,7 +1052,7 @@ end
 
 if text == 'تحديث السورس ✭' and D(msg) then 
 os.execute('rm -fm DEVDOB.lua')
-os.execute('wget https://raw.githubusercontent.com/alblymlk/DOB/main/DOB.lua?token=ATBN6MSE6FTARQZ5R7MMTETAJY6NG')
+os.execute('wget https://raw.githubusercontent.com/alblymlk/DOB/main/DOB.lua')
 send(msg.chat_id_, msg.id_,' ✭➢ تم تحديث السورس \n ✭➢ لديك اخر اصدار لسورس دوب \n ✭➢ الاصدار » { 1.2v }')
 dofile('DOB.lua')  
 end
@@ -1062,7 +1062,7 @@ send(msg.chat_id_, msg.id_,'✭➢ اصدار سورس دوب \n ✭➢ الاص
 end
 if text == 'قناه تحديثات البوت ✭' and DEVDOBW(msg) then 
 database:del(bot_id..'Srt:Bot') 
-send(msg.chat_id_, msg.id_,' ✭➢ [تحديثات البوت](t.me/DOB_GG ✭➢ [قناه السورس](t.me/DOB_G)')
+send(msg.chat_id_, msg.id_,' ✭➢ [تحديثات البوت](t.me/DOB_GG) ✭➢ [قناه السورس](t.me/DOB_G)')
 end
 if text == "ضع اسم للبوت ✭" and DEVDOBW(msg) then  
 database:setex(bot_id..'Set:Name:Bot'..msg.sender_user_id_,300,true) 
@@ -1092,7 +1092,7 @@ return false
 end
 if text == ("المطورين ✭") and DEVDOBW(msg) then
 local list = database:smembers(bot_id..'Sudo:User')
-t = "\n ✭➢ قائمة المطورين \n≪━━━━━━𝘽DB━━━━━≫\n"
+t = "\n ✭➢ قائمة المطورين \n≪━━━━━━DB━━━━━≫\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -1108,7 +1108,7 @@ send(msg.chat_id_, msg.id_, t)
 end
 if text == ("قائمه العام ✭") and DEVDOBW) then
 local list = database:smembers(bot_id..'GBan:User')
-t = "\n ✭➢ المحظورين عام \n|━━━━━━𝘽DB━━━━━|\n"
+t = "\n ✭➢ المحظورين عام \n|━━━━━━DB━━━━━|\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
@@ -1125,7 +1125,7 @@ return false
 end
 if text == ("الكتم العام ✭") and DEVDOBW(msg) then
 local list = database:smembers(bot_id..'Gmute:User')
-t = "\n ✭➢ قائمة المكتومين عام \n≪━━━━━━𝘽DB━━━━━≫\n"
+t = "\n ✭➢ قائمة المكتومين عام \n≪━━━━━━DB━━━━━≫\n"
 for k,v in pairs(list) do
 local username = database:get(bot_id.."user:Name" .. v)
 if username then
