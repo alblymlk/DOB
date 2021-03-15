@@ -2586,18 +2586,15 @@ end,nil)
 end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' then
 Text = [[
+ ✭➢ ↬DOB 𝐓𝐄𝐀𝐌
 |━━━━━━DB━━━━━━|
- ✭➢ ↬𝐁𝐎𝐘𝐊𝐀 𝐓𝐄𝐀𝐌
+ ✭➢ ↬[CHANNEL](t.me/dob_g) 
 |━━━━━━DB━━━━━━|
- ✭➢ ↬[Channel DOB](t.me/dob_g) 
+ ✭➢ ↬[SOURCE FILES](t.me/DOB_GG)
 |━━━━━━DB━━━━━━|
- ✭➢ ↬[Information](t.me/BOBBW)
+ ✭➢ ↬[DEVELOPER](t.me/GG1_R)
 |━━━━━━DB━━━━━━|
- ✭➢ ↬[DEVELOPER](t.me/CCFRR)
-|━━━━━━DB━━━━━━|
- ✭➢ ↬[orders DOB](t.me/source_DOB)
-|━━━━━━DB━━━━━━|
- ✭➢ ↬[To talk to us](t.me/rriebot)
+ ✭➢ ↬[TWS BOT](t.me/twsmimobot)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
