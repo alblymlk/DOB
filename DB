@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+cd $HOME/DOB
+while(true) do
+rm -fr ../.telegram-cli
+screen -S DOB -X kill
+screen -S DOB ./DOB
+done
