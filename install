@@ -20,9 +20,6 @@ rm -rf $HOME/.telegram-cli
  apt-get install libnotify-dev -y
  chmod +x tg
 lua DOB.lua
- chmod +x DOB
- chmod +x ./DB
-./DB
 }
 if [ "$1" = "install" ]; then
 install
@@ -33,7 +30,4 @@ exit 1
 fi
 sudo chmod +x tg
 DOB.lua
-sudo chmod +x DOB
-sudo chmod +x ./DB
-./DB
 fi
